@@ -30,6 +30,12 @@ $elementos_filho = "cliente"; //Esse é o nome dos elementos filhos do arquivo x
 $nome_arquivo = "clientes.xml";
 
 $conteudo_xml = CriarArquivoXml::conteudoXml($array_dados,$elemento_pai,$elementos_filho); //Criando o conteúdo do arquivo xml
+/*
+Com o conteúdo xml na variável $conteudo_xml, você pode criar um arquivo xml - o que será feito abaixo.
+Mas, eu poderia também enviar esse conteudo para um web service(URL remota). Para isso, eu utilizaria a biblioteca CURL do php(antes de utilizar a biblioteca CURL, verifique no seu phpinfo se a mesma já está habilitada, caso não, habilite).
+*/
+
+
 $arquivoXml = CriarArquivoXml::arquivoXml($nome_arquivo,$conteudo_xml); //Criando arquivo xml
 
 switch ($arquivoXml) {

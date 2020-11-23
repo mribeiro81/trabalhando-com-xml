@@ -7,7 +7,7 @@ SOBRE ESSE DIRETÓRIO
 
 ##### Já trabalhei muito criando e/ou consumindo web services baseados em xml e, aqui eu mostro como criar e ler arquivo xml de forma simples e prática.
 
-##### Certa vez, tive que integrar um sistema a outro onde tive que utilizar muito xml. Veja...
+##### Certa vez fiz integração com uma API da Cielo via xml, que possibilitava que todos os sites da empresa pudessem realizar cobranças com cartões de crédito utilizando o web service que criei. O web service recebia dos sites os parâmetros a serem enviados para a Cielo, bem como, as informações do site que estava utilizando o serviço, desse modo, o web service registrava a transação na Cielo, gravava log da transação(dados recebidos, dados enviados, status de transação, códigos de erro, etc), e retornava os dados para o site onde o pagamento estava sendo realizado.
 
 ###### O meu sistema precisava cadastrar clientes e enviar esse cadastro para outro sistema via web service xml. 
 

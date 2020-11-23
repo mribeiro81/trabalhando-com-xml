@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<clientes>
+		<cliente>
+			<id_cliente>1</id_cliente>
+			<nome_cliente>Manoel</nome_cliente>
+			<idade_cliente>39</idade_cliente>
+		</cliente>
+		<cliente>
+			<id_cliente>2</id_cliente>
+			<nome_cliente>Daniella</nome_cliente>
+			<idade_cliente>32</idade_cliente>
+		</cliente>
+		<cliente>
+			<id_cliente>3</id_cliente>
+			<nome_cliente>Marisa</nome_cliente>
+			<idade_cliente>56</idade_cliente>
+		</cliente>
+		<cliente>
+			<id_cliente>4</id_cliente>
+			<nome_cliente>João</nome_cliente>
+			<idade_cliente>64</idade_cliente>
+		</cliente>
+	</clientes>

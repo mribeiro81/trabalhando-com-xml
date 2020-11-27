@@ -3,6 +3,7 @@
   background-color: #FF4500;
   padding:40px 20px 40px;
   border-radius: 10px;
+  color: #fff;
 }
 
 main{
@@ -11,5 +12,53 @@ main{
 }
 
 body{
-	background-color: #222;
+	background-color: #000;
+	font-size: 1.1em;
+}
+
+
+.alert-info{
+	background-color: #FF8C00 !important;
+	color: #ffffff !important;
+	border-radius: 10px;
+	border-color: #fff;
+}
+
+.alert-success{
+	background-color: #FF8C00 !important;
+	color: #fff;
+	border-radius: 10px;
+	border-color: #fff;
+}
+
+a:link{
+	color: #fff;
+	font-size: 1.2em;
+	font-weight: 900;
+	text-decoration: underline;
+}
+
+a:hover{
+	color: #fff;
+	font-size: 1.3em;
+	font-weight: 900;
+	text-decoration: underline;
+}
+
+a:visited{
+	color: #fff;
+	font-size: 1.2em;
+	font-weight: 900;
+	text-decoration: underline;
+}
+
+a:active{
+	color: #fff;
+	font-size: 1.2em;
+	font-weight: 900;
+	text-decoration: underline;
+}
+
+.hr-alert{ 
+	background-color: #fff;
 }

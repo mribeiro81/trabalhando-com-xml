@@ -1,0 +1,15 @@
+
+.header-background{
+  background-color: #FF4500;
+  padding:40px 20px 40px;
+  border-radius: 10px;
+}
+
+main{
+	background-color: #f7f7f7 !important;
+	border-radius: 5px;
+}
+
+body{
+	background-color: #222;
+}

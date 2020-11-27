@@ -1,7 +1,7 @@
 SOBRE ESSE DIRETÓRIO
 ====================
 
-##### O objetivo aqui é criar e ler um arquivo xml, no entanto, dentro das páginas há dicas de como, em vez de criar o arquivo xml, disponibilizar o conteúdo para ser acessado por um serviço web externo.
+##### O objetivo aqui é criar e ler um arquivo xml, no entanto, dentro das páginas há dicas de como, em vez de criar o arquivo xml, disponibilizar o conteúdo para ser acessado remotamente.
 
 ##### Muito utilizado em diveros tipos de aplicações, saber trabalhar com xml é importante.
 

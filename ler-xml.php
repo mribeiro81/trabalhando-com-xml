@@ -53,7 +53,7 @@
 				<div class="alert alert-info mt-4">
 					<h3>Veja abaixo o conteúdo do arquivo xml.</h3>
 				</div>
-<pre>
+<pre class="ml-4">
 
 <&#63;xml version="1.0" encoding="utf-8"&#63;>
 &#60;clientes>

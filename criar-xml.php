@@ -38,7 +38,7 @@ Quem precisasse acessar a API, poderia utilizar a biblioteca CURL do php ou a fu
 <html lang="pt-br">
 <head>
     <meta charset="utf-8">
-    <title>Trabalhando com Ajax</title>
+    <title>Trabalhando com xml</title>
     <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet" />
     <link href="css/stylo.css" type="text/css" rel="stylesheet" /> 
 </head>

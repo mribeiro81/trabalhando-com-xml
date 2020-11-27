@@ -66,9 +66,9 @@ Quem precisasse acessar a API, poderia utilizar a biblioteca CURL do php ou a fu
 				switch ($arquivoXml) {
 					case ($arquivoXml > 0):
 						$mensagem= '<div class="alert alert-success mt-4 mb-4" role="alert"><h2>Arquivo xml criado com sucesso.</h2>';
-						$mensagem.= '<hr/>';
+						$mensagem.= '<hr class="hr-alert" />';
 						$mensagem.= '<h5>Aproveite para visualizar o conteúdo xml que consta no arquivo criado.</h5>';
-						$mensagem.= '<a href="ler-xml.php" target="_blank">Clique aqui para visualizar.</a></div>';
+						$mensagem.= '<a href="ler-xml.php" target="_blank">Clique aqui para visualizar</a></div>';
 						echo $mensagem;
 						break;			
 					default:
@@ -82,9 +82,8 @@ Quem precisasse acessar a API, poderia utilizar a biblioteca CURL do php ou a fu
 		</div>	
 
 		<div class="row">
-			<div class="col-sm mb-4">
-<pre class="mb-5">
-
+			<div class="col-sm mt-2 mb-4">
+<pre class="mb-5 ml-2">
 Nesse exemplo crei um array para gerar o arquivo xml, mas, os dados poderiam vir 
 de um banco de dados, de modo a possibilitar a criação do array de forma dinâmica.
 

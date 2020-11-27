@@ -2,7 +2,7 @@
 <html lang="pt-br">
 <head>
     <meta charset="utf-8">
-    <title>Trabalhando com Ajax</title>
+    <title>Trabalhando com xml</title>
     <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet" />
     <link href="css/stylo.css" type="text/css" rel="stylesheet" /> 
 </head>
